@@ -1,0 +1,8 @@
+opencv-python
+torch
+torchvision
+numpy
+matplotlib
+tqdm
+yolov5
+deepsort-realtime
