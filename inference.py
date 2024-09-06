@@ -6,6 +6,7 @@ from track import Tracker
 # Load YOLOv5 pre-trained model
 model = load_model('yolov5s')
 
+
 # Initialize tracker (DeepSORT, ByteTrack, etc.)
 tracker = Tracker()
 
@@ -39,4 +40,4 @@ def detect_and_track(video_path, output_path):
     cv2.destroyAllWindows()
 
 if __name__ == '__main__':
-    detect_and_track('test_videos/test_video.mp4', 'outputs/output_test_video.mp4')
+    detect_and_track('test_videos/test.mp4', 'outputs/output_test_video.mp4')
