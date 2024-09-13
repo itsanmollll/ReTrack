@@ -6,3 +6,5 @@ matplotlib
 tqdm
 yolov5
 deepsort-realtime
+streamlit
+matplotlib
